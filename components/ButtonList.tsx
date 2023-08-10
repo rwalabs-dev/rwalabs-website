@@ -43,7 +43,7 @@ function MDButton({ toggle }: { toggle: (type: ButtonType) => void }) {
 function BBButton({ toggle }: { toggle: (type: ButtonType) => void }) {
     return (
         <button className="btn btn-bb" onClick={() => toggle("bb")}>
-            Biera Brewery
+            Birâ Brewery
         </button>
     );
 }
@@ -86,7 +86,7 @@ function BBCard({ close }: { close: () => void }) {
     return (
         <div className="card card-bb">
             <h2 className="card-title hover:cursor-pointer" onClick={close}>
-                Biera Brewery
+                Birâ Brewery
             </h2>
             <p>
                 To be announced
