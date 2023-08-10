@@ -11,10 +11,63 @@
     .btn {
         font-size: 24px;
         font-family: var(--font-interstate-regular);
-        @apply w-[210px] h-[50px] rounded-[20px] mx-auto
+        vertical-align: middle;
+        @apply w-[210px] rounded-[20px] mx-auto p-2
     }
 
-    .btn:hover, .btn.active {
+    .btn.btn-be {
+        @apply bg-be
+    }
+
+    .btn.btn-md {
+        @apply bg-md
+    }
+
+    .btn.btn-bb {
+        @apply bg-bb
+    }
+
+
+    .btn:hover,
+    .btn.active {
         @apply opacity-70
+    }
+
+    .card {
+        @apply flex flex-col gap-4 px-10 py-4 rounded-[20px] text-center
+    }
+
+    .card.card-be {
+        @apply bg-be bg-opacity-50
+    }
+
+    .card.card-md {
+        @apply bg-md bg-opacity-50
+    }
+
+    .card.card-bb {
+        @apply bg-bb bg-opacity-50
+    }
+
+    .card-title {
+        font-size: 24px;
+        font-family: var(--font-interstate-regular);
+        @apply border-b-2 inline-block mx-auto
+    }
+
+    .card.card-be .card-title {
+        @apply border-be
+    }
+
+    .card.card-md .card-title {
+        @apply border-md
+    }
+
+    .card.card-bb .card-title {
+        @apply border-bb
+    }
+
+    .card-footer {
+        font-family: var(--font-interstate-regular);
     }
 }

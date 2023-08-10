@@ -13,8 +13,8 @@ const regular = localFont({
 });
 
 export const metadata: Metadata = {
-    title: 'Rwalabs',
-    description: 'Rwalabs',
+    title: "RWA Labs",
+    description: "RWA Labs - Bridging the gap between traditional finance and DeFi",
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
